@@ -20,11 +20,20 @@ fs.readdir('.', function (err, files) {
 	console.log(files[idx]);	
   }  
 });
-//4.check dir or file  exist & Create
+//4.check dir or file  exist & Create 同步方式检查
 var dir = 'demoDir';
 if (!fs.existsSync(dir)) { 
 	//https://github.com/joyent/node/issues/1999
 	//mode:创建文件夹默认权限设置
 	fs.mkdirSync(dir, 0777);
  }
+ //5.异步方式检查
+ fs.exists(filePath, function(exists) {
+        if (exists) {
+          // serve file
+           
+        } else {
+          
+        }
+ });
 
