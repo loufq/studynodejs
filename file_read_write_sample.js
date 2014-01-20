@@ -1,4 +1,3 @@
-
 //http://nodejs.org/api/fs.html
 var fs = require('fs');
 //1.创建并写入文件
@@ -20,5 +19,13 @@ fs.readdir('.', function (err, files) {
   for (var idx  in files){
 	console.log(files[idx]);	
   }  
+});
+//check exist
+fs.exists(file, function(exists) {
+  if (exists) {
+    
+  } else {
+    
+  }
 });
 
