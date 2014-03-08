@@ -8,7 +8,7 @@ studynodejs
 -------------
 [node-findit](https://github.com/substack/node-findit)
 
-# markdown h6
+# markdown
 http://daringfireball.net/projects/markdown/syntax
 
 
