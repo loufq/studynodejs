@@ -6,9 +6,9 @@ studynodejs
 
 源码可戏读学习提高篇
 -------------
-[node-findit](https://github.com/substack/node-findit)
-[auto-schema](https://github.com/segmentio/auto-schema)
-
+- [node-findit](https://github.com/substack/node-findit)
+- [auto-schema](https://github.com/segmentio/auto-schema)
+  
 # markdown
 http://daringfireball.net/projects/markdown/syntax
 
