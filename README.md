@@ -12,6 +12,5 @@ studynodejs
 # markdown
 http://daringfireball.net/projects/markdown/syntax
 
-#
-CLI
+# CLI
 [node-command-line-utilities](http://cruft.io/posts/node-command-line-utilities/?utm_source=nodeweekly&utm_medium=email)
